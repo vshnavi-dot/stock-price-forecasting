@@ -116,3 +116,6 @@ rebuild the UI in Streamlit instead of Flask.)
 ## Disclaimer
 This is an educational project. Predictions are not financial advice and
 should not be used for real trading decisions.
+
+## Author
+Vaishnavi — [GitHub](https://github.com/vshnavi-dot) | [LinkedIn](https://www.linkedin.com/in/vaishnavi-acharya-1955a933b?utm_source=share_via&utm_content=profile&utm_medium=member_android)
