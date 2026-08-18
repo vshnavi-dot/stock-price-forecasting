@@ -1,5 +1,39 @@
 # 📈 Stock Price Forecasting
 
+Intern ID: CITS8349 
+NAME: VAISHNAVI Number of Weeks: 4 
+Project Name: Stock -Price Prediction
+
+## Project Scope
+
+### Objective
+Build a simple, end-to-end machine learning pipeline that forecasts short-term
+stock closing prices using historical price data, as a learning/portfolio
+project demonstrating data collection, feature engineering, model training,
+evaluation, and visualization.
+
+### In Scope
+- Fetching historical daily OHLCV data for a single stock ticker via Yahoo Finance
+- Feature engineering using lagged closing prices and rolling statistics
+- Training a supervised regression model (Random Forest) to predict next-day close
+- Evaluating model performance with MAE and RMSE on a chronological train/test split
+- Generating a multi-day (N business days) iterative forecast
+- Visualizing historical prices, test predictions, and forecasted prices in a single chart
+- Command-line interface for running the pipeline with configurable parameters
+  (ticker, history window, forecast horizon, number of lag features)
+
+### Out of Scope
+- Real-time or intraday trading signals
+- Multi-asset portfolio optimization or backtesting a trading strategy
+- Guaranteed predictive accuracy — stock prices are influenced by countless
+  unpredictable factors, and short-term movement behaves close to a random walk
+- Production deployment (e.g., live API, scheduled retraining, cloud hosting)
+- Sentiment analysis, news, or fundamental data integration
+
+### Tech Stack
+- **Language:** Python 3.11+ (developed against 3.14)
+- **Data source:** `yfinance` (Yahoo Finance
+
 A simple web app that forecasts a stock's next-day closing price using historical
 data pulled live from Yahoo Finance (via `yfinance`) and a `RandomForestRegressor`
 trained on lag + moving-average features.
